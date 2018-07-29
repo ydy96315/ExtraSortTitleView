@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		054E3C5A210D67FE008ADD88 /* ExtraSortTitleViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 054E3C54210D67FE008ADD88 /* ExtraSortTitleViewStyle.m */; };
+		054E3C5B210D67FE008ADD88 /* UIView+ExtraViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 054E3C55210D67FE008ADD88 /* UIView+ExtraViewExtension.m */; };
+		054E3C5C210D67FE008ADD88 /* ExtraSortTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 054E3C56210D67FE008ADD88 /* ExtraSortTitleView.m */; };
 		05A6BD4B210D5AB900ED989F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A6BD4A210D5AB900ED989F /* AppDelegate.m */; };
 		05A6BD4E210D5AB900ED989F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A6BD4D210D5AB900ED989F /* ViewController.m */; };
 		05A6BD51210D5AB900ED989F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A6BD4F210D5AB900ED989F /* Main.storyboard */; };
@@ -15,9 +18,6 @@
 		05A6BD59210D5AB900ED989F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A6BD58210D5AB900ED989F /* main.m */; };
 		05A6BD63210D5AB900ED989F /* ExtraSortTitleViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A6BD62210D5AB900ED989F /* ExtraSortTitleViewDemoTests.m */; };
 		05A6BD6E210D5AB900ED989F /* ExtraSortTitleViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A6BD6D210D5AB900ED989F /* ExtraSortTitleViewDemoUITests.m */; };
-		05A6BD85210D5B3500ED989F /* ExtraSortTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A6BD84210D5B3500ED989F /* ExtraSortTitleView.m */; };
-		05A6BD88210D5B6A00ED989F /* ExtraSortTitleViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A6BD87210D5B6A00ED989F /* ExtraSortTitleViewStyle.m */; };
-		05A6BD8B210D5D9800ED989F /* UIView+ExtraViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A6BD8A210D5D9800ED989F /* UIView+ExtraViewExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		054E3C54210D67FE008ADD88 /* ExtraSortTitleViewStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtraSortTitleViewStyle.m; sourceTree = "<group>"; };
+		054E3C55210D67FE008ADD88 /* UIView+ExtraViewExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ExtraViewExtension.m"; sourceTree = "<group>"; };
+		054E3C56210D67FE008ADD88 /* ExtraSortTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtraSortTitleView.m; sourceTree = "<group>"; };
+		054E3C57210D67FE008ADD88 /* ExtraSortTitleViewStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtraSortTitleViewStyle.h; sourceTree = "<group>"; };
+		054E3C58210D67FE008ADD88 /* UIView+ExtraViewExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ExtraViewExtension.h"; sourceTree = "<group>"; };
+		054E3C59210D67FE008ADD88 /* ExtraSortTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtraSortTitleView.h; sourceTree = "<group>"; };
 		05A6BD46210D5AB900ED989F /* ExtraSortTitleViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExtraSortTitleViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05A6BD49210D5AB900ED989F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		05A6BD4A210D5AB900ED989F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,12 +60,6 @@
 		05A6BD69210D5AB900ED989F /* ExtraSortTitleViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExtraSortTitleViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05A6BD6D210D5AB900ED989F /* ExtraSortTitleViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtraSortTitleViewDemoUITests.m; sourceTree = "<group>"; };
 		05A6BD6F210D5AB900ED989F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		05A6BD83210D5B3500ED989F /* ExtraSortTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtraSortTitleView.h; sourceTree = "<group>"; };
-		05A6BD84210D5B3500ED989F /* ExtraSortTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtraSortTitleView.m; sourceTree = "<group>"; };
-		05A6BD86210D5B6A00ED989F /* ExtraSortTitleViewStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtraSortTitleViewStyle.h; sourceTree = "<group>"; };
-		05A6BD87210D5B6A00ED989F /* ExtraSortTitleViewStyle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtraSortTitleViewStyle.m; sourceTree = "<group>"; };
-		05A6BD89210D5D9800ED989F /* UIView+ExtraViewExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ExtraViewExtension.h"; sourceTree = "<group>"; };
-		05A6BD8A210D5D9800ED989F /* UIView+ExtraViewExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ExtraViewExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +87,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		054E3C53210D67FE008ADD88 /* ExtraSortTitleView */ = {
+			isa = PBXGroup;
+			children = (
+				054E3C54210D67FE008ADD88 /* ExtraSortTitleViewStyle.m */,
+				054E3C55210D67FE008ADD88 /* UIView+ExtraViewExtension.m */,
+				054E3C56210D67FE008ADD88 /* ExtraSortTitleView.m */,
+				054E3C57210D67FE008ADD88 /* ExtraSortTitleViewStyle.h */,
+				054E3C58210D67FE008ADD88 /* UIView+ExtraViewExtension.h */,
+				054E3C59210D67FE008ADD88 /* ExtraSortTitleView.h */,
+			);
+			name = ExtraSortTitleView;
+			path = ../../ExtraSortTitleView;
+			sourceTree = "<group>";
+		};
 		05A6BD3D210D5AB800ED989F = {
 			isa = PBXGroup;
 			children = (
@@ -110,7 +124,7 @@
 		05A6BD48210D5AB900ED989F /* ExtraSortTitleViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				05A6BD7B210D5B1100ED989F /* ExtraSortTitleView */,
+				054E3C53210D67FE008ADD88 /* ExtraSortTitleView */,
 				05A6BD49210D5AB900ED989F /* AppDelegate.h */,
 				05A6BD4A210D5AB900ED989F /* AppDelegate.m */,
 				05A6BD4C210D5AB900ED989F /* ViewController.h */,
@@ -140,19 +154,6 @@
 				05A6BD6F210D5AB900ED989F /* Info.plist */,
 			);
 			path = ExtraSortTitleViewDemoUITests;
-			sourceTree = "<group>";
-		};
-		05A6BD7B210D5B1100ED989F /* ExtraSortTitleView */ = {
-			isa = PBXGroup;
-			children = (
-				05A6BD83210D5B3500ED989F /* ExtraSortTitleView.h */,
-				05A6BD84210D5B3500ED989F /* ExtraSortTitleView.m */,
-				05A6BD86210D5B6A00ED989F /* ExtraSortTitleViewStyle.h */,
-				05A6BD87210D5B6A00ED989F /* ExtraSortTitleViewStyle.m */,
-				05A6BD89210D5D9800ED989F /* UIView+ExtraViewExtension.h */,
-				05A6BD8A210D5D9800ED989F /* UIView+ExtraViewExtension.m */,
-			);
-			path = ExtraSortTitleView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,12 +289,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05A6BD85210D5B3500ED989F /* ExtraSortTitleView.m in Sources */,
-				05A6BD88210D5B6A00ED989F /* ExtraSortTitleViewStyle.m in Sources */,
-				05A6BD8B210D5D9800ED989F /* UIView+ExtraViewExtension.m in Sources */,
+				054E3C5C210D67FE008ADD88 /* ExtraSortTitleView.m in Sources */,
 				05A6BD4E210D5AB900ED989F /* ViewController.m in Sources */,
 				05A6BD59210D5AB900ED989F /* main.m in Sources */,
+				054E3C5A210D67FE008ADD88 /* ExtraSortTitleViewStyle.m in Sources */,
 				05A6BD4B210D5AB900ED989F /* AppDelegate.m in Sources */,
+				054E3C5B210D67FE008ADD88 /* UIView+ExtraViewExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
